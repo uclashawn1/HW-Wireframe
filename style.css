@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex; background-color: darkgray;
+}
+.flex-container > div {
+    color: #777;
+    background: #777;
+    width: 960px;
+    font: 18px;
+}
