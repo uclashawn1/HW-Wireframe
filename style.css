@@ -1,22 +1,22 @@
-body {
+.body {
     background-color: #777; 
     color:#777;
     width: 100%;
     font: 18px;
 }
-header {
+.header {
     background: #ebebeb;
     height: 20px;
     padding: 5px;
     border: solid #777 5px;
 }
-nav {
+.nav {
     background: #ebebeb;
     height: 20px;
     padding: 5px;
     border: solid #777 5px;
 }
-section {
+.section {
     float: left;
     width: 60%;
     height: 80px;
@@ -24,17 +24,23 @@ section {
     padding: 5px;
     border: solid #777 15px;
 }
-aside {
+.aside {
     float: right;
     width: 30%;
     height: 80px;
     background: #ebebeb;
     padding: 5px;
     border: solid #777 15px;
+
 }
-footer {
+.footer {
     background: #ebebeb;
     height: 20px;
     padding: 5px;
     border: solid #777 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
